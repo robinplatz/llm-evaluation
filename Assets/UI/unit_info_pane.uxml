@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="bottomLeftPane" style="position: absolute; bottom: 0; left: 0; width: 35%; height: 30%; background-color: rgba(255, 255, 255, 0.5); border-top-right-radius: 25px; display: flex; flex-direction: row; justify-content: space-between;">
+        <ui:VisualElement style="width: 50%; background-image: url(&apos;project://database/Assets/Texture/UIRenderTex.renderTexture?fileID=8400000&amp;guid=17a13cb41eed5314aad0f0c23a02f737&amp;type=2#UIRenderTex&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 1px; scale: 0.9 0.9;" />
+        <ui:VisualElement style="width: 50%;">
+            <ui:ScrollView>
+                <ui:VisualElement>
+                    <ui:Label text="Entity Name" name="Name" />
+                    <ui:Label text="Class" name="Class" />
+                    <ui:Label text="Team" name="Team" />
+                    <ui:VisualElement style="display: flex; flex-direction: row;">
+                        <ui:Label text="HP" name="HP" />
+                        <ui:Label text="10" name="HPcurr" />
+                        <ui:Label text=" / " />
+                        <ui:Label text="10" name="HPmax" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="display: flex; flex-direction: row;">
+                        <ui:Label text="MP" name="MP" />
+                        <ui:Label text="10" name="MPcurr" />
+                        <ui:Label text=" / " />
+                        <ui:Label text="10" name="MPmax" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

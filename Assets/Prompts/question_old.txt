@@ -1,0 +1,4 @@
+Choose a unit under your control, move it towards an enemy unit and then attack it. Do not use the numbers in the example instructions but insert your own.
+Example: You want to move your unit from x1.y1 closer to an enemy unit at x2.y2 and then attack it. You can move up to 3 spaces and attack up to 1 space away. Your ecoded instructions could be: M:x1.y1:x1+2.y1 A:x1+2.y1:x2.y2
+Q: What are your encoded instructions?
+A:

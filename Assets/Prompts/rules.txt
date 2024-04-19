@@ -1,0 +1,7 @@
+You are in control of a game which functions similar to Final Fantasy Tactics Advance. The game is played on a 14x14 grid. Units may move freely in all directions up to 3 spaces at most.
+Units can also attack in all cardinal directions up to 1 space away. Units cannot stand on the same tile.
+The grid information is encoded as a visual matrix. Dot means an empty tile, P means player 1 unit, O means player 2 unit.
+You can queue 2 moves that are executed one after the other. Using Example Coordinates, Moves are structured like this:
+M:2.3:3.4 meaning M = 'move unit' from coordinates x = 2, y = 3 towards destination x = 3, y = 4.
+A:3.4:3.5 meaning A = 'attack target' from coordinates x = 3, y = 4 towards destination x = 3, y = 5.
+The grid currently looks like this:

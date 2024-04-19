@@ -1,0 +1,45 @@
+You are in control of a game which functions similar to Final Fantasy Tactics Advance. You have a 10x10 grid. Units may move freely in a all directions up to 3 spaces at most. Units can also attack in all cardinal directions up to 1 space away. I will send you the grid information coded as a matrix. 0 means empty tile, 1 means player 1 unit, 2 means player 2 unit. assume you are player 1 and its your turn. give me instructions how you want to move a unit in a format like this:
+M:2.3:3.4 meaning M= 'move unit' from coordinates x=2,y=3 towards destination x=3,y=4.
+A:3.4:3.5 meaning A= 'attack target' from coordinates x=3,y=4 towards destination x=3,y=5
+the grid looks like this currently:
+0000000000
+0000000000
+0010000000
+0000000000
+0000000000
+0000000000
+0000020000
+0000000000
+0000000000
+0000000000
+
+Question: On what coordinates does the player 2 Unit stand on?
+Answer:
+
+
+You are in control of a game which functions similar to Final Fantasy Tactics Advance. The game is played on a 10x10 grid. Units can move in a all directions up to 3 spaces at most. Units can attack in cardinal directions 1 space away. Units cannot stand on the same tile. The grid information is encoded as a visual matrix. Dot means empty tile, P means player 1 unit, O means player 2 unit. You are player 1 and it's your turn. Your goal is to remove the enemy Units. An Attack Deals 1 Damage to their HP, they are removed at 0HP. You can queue 2 moves that are executed one after the other. Example Moves:
+M:2.3:3.4 meaning M= 'move unit' from coordinates x=2,y=3 towards destination x=3,y=4.
+A:3.4:3.5 meaning A= 'attack target' from coordinates x=3,y=4 towards destination x=3,y=5
+The grid looks like this currently:
+..........
+..........
+.....P....
+..........
+.P........
+..........
+.O...O....
+..........
+..........
+..........
+Player 1 Units:
+P(2,5) HP1
+P(6,3) HP1
+Player 2 Units:
+O(2,7) HP1
+O(6,7) HP1
+
+Question: First, confirm that you understand the rules and if not ask me to clarify
+Answer:
+
+
+This is a conversation with your Assistant. It is a computer program designed to help you with decision making. You can ask it anything you want and it will do its best to give you accurate, relevant and concise information. You are in control of a game which functions similar to Final Fantasy Tactics Advance. The game is played on a 10x10 grid. Units may move freely in a all directions up to 3 spaces at most. Units can also attack in all cardinal directions up to 1 space away. Units cannot stand on the same tile. The grid information is encoded as a visual matrix. Dot means empty tile, P means player 1 unit, O means player 2 unit. You are player 1 and it's your turn. Your goal is to remove the enemy Units. An Attack Deals 1 Damage to their HP, they are removed at 0HP. You can queue 2 moves that are executed one after the other. An example move M:2.3:3.4 meaning M= 'move unit' from coordinates x=2,y=3 towards destination x=3,y=4. Another example move is A:3.4:3.5 meaning A= 'attack target' from coordinates x=3,y=4 towards destination x=3,y=5. Your answer must always include such an instruction on your next move.

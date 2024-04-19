@@ -1,0 +1,25 @@
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QLarge Language Models (LLMs) sind neuronale Netzwerke, die darauf trainiert sind, natürliche Sprache zu verstehen und zu generieren.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDurch die Nutzung von spezialisierten Hardware-Plattformen wie Tensor Processing Units oder Nvidia A100 GPUs können Modelle mit einer sehr hohen Anzahl an Parametern (bspw. GPT-4 mit geschätzten 1.76T Parametern) und umfangreichen Kontext (bspw. GPT-4 mit 32,768 Token) betrieben werden.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Modelle sind oft über APIs oder SDKs zugänglich und können einfach in bestehende Anwendungen integriert werden.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QGpt-3.5-turbo ist das wahrscheinlich immer noch am häufigsten genutzte Modell, obwohl es mittlerweile von dem neueren GPT-4 abgelöst wurde.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QGemini ist das neueste Modell aus einer Reihe von Google Eigenentwicklungen und löst das bisherige Modell Palm 2 ab, welches zuvor in Google Bard benutzt wurde.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QIm Unterschied zu einfach skalierbaren Cloudlösungen, muss im vorhinein genau geplant werden, welche Hardware Ressourcen benötigt werden und ob der gewählte Stack aus Hardware, Modell und Anforderungen des Projekts die gewünschte Leistung erbringen kann.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QAufgrund der unterschiedlichen Berechnungszeiten der Modelle soll das Spiel rundenbasiert sein, damit keine Race Conditions entstehen können.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QAleph Alpha Authorization Bearer Token unter alephalpha.env OpenAI secret API Key unter openai.env Google Gemini API Key unter serviceaccount.json Hier muss noch zusätzlich in Chat.cs AuthenticateGcloud() die folgende Zeile angepasst werden: string keyFile = Application.dataPath + \"..\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QTastatur: Die Tastatur kann benutzt werden, um das Spielfeld zu rotieren, da die zufällig generierte Heightmap des Spielfelds nicht immer optimal ausgerichtet ist.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QZum Verfolgen der Herausforderungen wurde die Kanban Funktion von Github Projects genutzt.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Logik zum Steuern und Verarbeiten sämtlicher LLM-Anfragen findet in der Klasse \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q statt.\\E$"}
+{"rule":"F_ANSTATT_PH","sentence":"^\\QFür die Animation des Hintergrunds wurde ein einfacher Shader mithilfe von ShaderGraph entwickelt, der mit minimaler Rechenleistung eine dynamische Bewegung des Hintergrunds erzeugt.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QBei der Instanziierung des Spiels wird das Spielfeld mithilfe von Perlin Noise und Smoothing generiert, um die Höhe der Felder zu bestimmen.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Generation basiert dabei auf einem Seed, der über das Skript als Attribut gesetzt werden kann.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QHierbei werden die Felder in einer 2D-Array-Struktur abgelegt, bei der eine Smoothing-Iteration die Höhenunterschiede zwischen den unmittelbaren Nachbarn iterativ verringert, um ein begehbares aber dennoch unebenes Spielfeld zu generieren.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QEntity: Spielobjekte.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Entity-Klasse verfolgt die Position, Statistiken wie Lebenspunkte und Angriffswerte, sowie die visuelle Darstellung der Einheiten.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QSie ist über einen Enum-Typ \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q in Terrain und Unit unterteilt.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QWird die eine Entity-Instanz als Terrain eingesetzt, so wird sie als passives Spielobjekt behandelt, das primär nur seine Koordinaten und seinen Typ beinhaltet.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QDie Methoden der Entity-Klasse behandeln den Enum-Typ Unit:\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q: Sendet eine Anfrage an die Aleph Alpha Luminous API und verarbeitet die Antwort.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QOllama ist ein lightweight Tool zum Betreiben eines lokalen Inferenz-Modells.\\E$"}
+{"rule":"DE_CASE","sentence":"^\\QIn diesem Projekt wurde ein universeller Prompt gewählt, welcher für alle Modelle eingesetzt wurde.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QAls Richtlinie wurden die OpenAI Prompting Strategien benutzt, jedoch war die Auswirkung der Veränderungen oder der tatsächlich vom LLM verstandene Informationsumfang nicht immer klar nachvollziehbar.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\\QAls Richtlinie wurden die OpenAI Prompting-Strategien benutzt, jedoch war die Auswirkung der Veränderungen oder der tatsächlich vom LLM verstandene Informationsumfang nicht immer klar nachvollziehbar.\\E$"}
